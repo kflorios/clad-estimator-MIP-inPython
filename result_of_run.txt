@@ -1,0 +1,304 @@
+
+(cplex) C:\Storage\Kostas\Research\PythonCplex\PythonCplex_CLAD>python main.py
+main.py:42: RuntimeWarning: invalid value encountered in true_divide
+  testX = (X - np.tile(mu,(np.size(X,0),1))) / np.tile(sigma,(np.size(X,0),1))
+Model: clad
+ - number of variables: 2409
+   - binary=601, integer=0, continuous=1808
+ - number of constraints: 3015
+   - linear=3015
+ - parameters: defaults
+ - objective: minimize
+ - problem type is: MILP
+  1+: Node=0 Left=1 Best Integer=875.0000, Best Bound=0.0000, gap=100.00%, ItCnt=6 [0.1s]
+  2+: Node=0 Left=1 Best Integer=875.0000, Best Bound=35.5498, gap=95.94%, ItCnt=321 [0.1s]
+  3+: Node=0 Left=1 Best Integer=875.0000, Best Bound=66.4481, gap=92.41%, ItCnt=345 [0.3s]
+  4+: Node=0 Left=1 Best Integer=875.0000, Best Bound=104.4097, gap=88.07%, ItCnt=369 [0.4s]
+  5+: Node=0 Left=1 Best Integer=875.0000, Best Bound=130.5961, gap=85.07%, ItCnt=388 [0.5s]
+  6+: Node=0 Left=1 Best Integer=875.0000, Best Bound=133.6322, gap=84.73%, ItCnt=388 [0.6s]
+  7+: Node=0 Left=1 Best Integer=875.0000, Best Bound=197.4840, gap=77.43%, ItCnt=437 [0.7s]
+  8+: Node=0 Left=1 Best Integer=863.0000, Best Bound=206.6398, gap=76.06%, ItCnt=772 [1.2s]
+  9+: Node=0 Left=1 Best Integer=863.0000, Best Bound=260.2510, gap=69.84%, ItCnt=842 [1.3s]
+ 10+: Node=0 Left=1 Best Integer=863.0000, Best Bound=274.1082, gap=68.24%, ItCnt=872 [1.5s]
+ 11+: Node=0 Left=1 Best Integer=863.0000, Best Bound=282.4789, gap=67.27%, ItCnt=894 [1.6s]
+ 12+: Node=0 Left=1 Best Integer=863.0000, Best Bound=302.1618, gap=64.99%, ItCnt=970 [1.8s]
+ 13+: Node=0 Left=1 Best Integer=863.0000, Best Bound=315.4676, gap=63.45%, ItCnt=970 [1.8s]
+ 14+: Node=0 Left=1 Best Integer=863.0000, Best Bound=346.5192, gap=59.85%, ItCnt=1009 [2.0s]
+ 15+: Node=0 Left=1 Best Integer=863.0000, Best Bound=368.5075, gap=57.30%, ItCnt=1047 [2.2s]
+ 16+: Node=0 Left=1 Best Integer=863.0000, Best Bound=426.9818, gap=50.52%, ItCnt=1150 [2.5s]
+ 17+: Node=0 Left=1 Best Integer=863.0000, Best Bound=442.4383, gap=48.73%, ItCnt=1188 [2.6s]
+ 18+: Node=0 Left=1 Best Integer=863.0000, Best Bound=530.0785, gap=38.58%, ItCnt=1294 [2.8s]
+ 19+: Node=0 Left=1 Best Integer=863.0000, Best Bound=535.8435, gap=37.91%, ItCnt=1332 [3.0s]
+ 20+: Node=0 Left=1 Best Integer=863.0000, Best Bound=540.9147, gap=37.32%, ItCnt=1359 [3.0s]
+ 21+: Node=0 Left=1 Best Integer=863.0000, Best Bound=541.2978, gap=37.28%, ItCnt=1378 [3.1s]
+ 22+: Node=0 Left=1 Best Integer=863.0000, Best Bound=541.8577, gap=37.21%, ItCnt=1388 [3.1s]
+ 23+: Node=0 Left=1 Best Integer=863.0000, Best Bound=542.0227, gap=37.19%, ItCnt=1394 [3.2s]
+ 24+: Node=0 Left=1 Best Integer=863.0000, Best Bound=542.4652, gap=37.14%, ItCnt=1404 [3.3s]
+ 25+: Node=1 Left=1 Best Integer=863.0000, Best Bound=544.0532, gap=36.96%, ItCnt=1414 [3.8s]
+ 26+: Node=2 Left=2 Best Integer=863.0000, Best Bound=547.0094, gap=36.62%, ItCnt=1434 [3.8s]
+ 27+: Node=29 Left=10 Best Integer=859.0000, Best Bound=582.9802, gap=32.13%, ItCnt=2791 [4.1s]
+ 28+: Node=52 Left=44 Best Integer=859.0000, Best Bound=584.7915, gap=31.92%, ItCnt=3882 [4.3s]
+ 29+: Node=70 Left=53 Best Integer=859.0000, Best Bound=600.3744, gap=30.11%, ItCnt=5210 [4.4s]
+ 30+: Node=90 Left=71 Best Integer=859.0000, Best Bound=608.8071, gap=29.13%, ItCnt=6640 [4.5s]
+ 31+: Node=124 Left=108 Best Integer=859.0000, Best Bound=615.1791, gap=28.38%, ItCnt=8993 [4.9s]
+ 32+: Node=162 Left=125 Best Integer=859.0000, Best Bound=616.9062, gap=28.18%, ItCnt=12434 [5.0s]
+ 33+: Node=180 Left=163 Best Integer=859.0000, Best Bound=621.9033, gap=27.60%, ItCnt=14178 [5.2s]
+ 34+: Node=264 Left=198 Best Integer=859.0000, Best Bound=632.7991, gap=26.33%, ItCnt=22095 [5.6s]
+ 35+: Node=294 Left=265 Best Integer=859.0000, Best Bound=634.6444, gap=26.12%, ItCnt=24592 [5.8s]
+ 36+: Node=341 Left=295 Best Integer=859.0000, Best Bound=639.4955, gap=25.55%, ItCnt=28524 [6.1s]
+ 37+: Node=394 Left=342 Best Integer=859.0000, Best Bound=641.4639, gap=25.32%, ItCnt=32082 [6.4s]
+ 38+: Node=461 Left=395 Best Integer=859.0000, Best Bound=643.9511, gap=25.03%, ItCnt=36336 [6.7s]
+ 39+: Node=531 Left=462 Best Integer=859.0000, Best Bound=646.6693, gap=24.72%, ItCnt=42108 [7.0s]
+ 40+: Node=608 Left=532 Best Integer=859.0000, Best Bound=648.0031, gap=24.56%, ItCnt=47213 [7.4s]
+ 41+: Node=686 Left=609 Best Integer=859.0000, Best Bound=652.1998, gap=24.07%, ItCnt=52961 [7.7s]
+ 42+: Node=779 Left=687 Best Integer=859.0000, Best Bound=655.2003, gap=23.73%, ItCnt=59117 [8.0s]
+ 43+: Node=873 Left=780 Best Integer=859.0000, Best Bound=657.1021, gap=23.50%, ItCnt=65952 [8.2s]
+ 44+: Node=924 Left=874 Best Integer=859.0000, Best Bound=659.1366, gap=23.27%, ItCnt=71472 [8.6s]
+ 45+: Node=1012 Left=925 Best Integer=859.0000, Best Bound=661.7690, gap=22.96%, ItCnt=79150 [8.9s]
+ 46+: Node=1088 Left=1013 Best Integer=859.0000, Best Bound=664.0107, gap=22.70%, ItCnt=85961 [9.2s]
+ 47+: Node=1152 Left=1089 Best Integer=859.0000, Best Bound=665.2643, gap=22.55%, ItCnt=91770 [9.4s]
+ 48+: Node=1227 Left=1 Best Integer=857.9412, Best Bound=729.4455, gap=14.98%, ItCnt=101107 [14.3s]
+ 49+: Node=1228 Left=1 Best Integer=857.9412, Best Bound=731.2035, gap=14.77%, ItCnt=101107 [14.3s]
+ 50+: Node=1229 Left=2 Best Integer=857.9412, Best Bound=731.8253, gap=14.70%, ItCnt=101108 [14.3s]
+ 51+: Node=1230 Left=3 Best Integer=857.9412, Best Bound=733.4625, gap=14.51%, ItCnt=101135 [14.5s]
+ 52+: Node=1232 Left=4 Best Integer=854.6364, Best Bound=733.8481, gap=14.13%, ItCnt=101256 [14.6s]
+ 53+: Node=1241 Left=10 Best Integer=840.7440, Best Bound=733.8481, gap=12.71%, ItCnt=101928 [15.0s]
+ 54+: Node=1244 Left=15 Best Integer=840.7440, Best Bound=738.1161, gap=12.21%, ItCnt=102130 [15.1s]
+ 55+: Node=1261 Left=18 Best Integer=840.7440, Best Bound=764.5316, gap=9.06%, ItCnt=104076 [15.3s]
+ 56+: Node=1277 Left=35 Best Integer=840.7440, Best Bound=765.8947, gap=8.90%, ItCnt=105756 [15.5s]
+ 57+: Node=1318 Left=51 Best Integer=840.7440, Best Bound=772.3862, gap=8.13%, ItCnt=109262 [15.7s]
+ 58+: Node=1354 Left=92 Best Integer=840.7440, Best Bound=777.9586, gap=7.47%, ItCnt=112130 [15.8s]
+ 59+: Node=1384 Left=128 Best Integer=840.7440, Best Bound=785.4038, gap=6.58%, ItCnt=115115 [16.1s]
+ 60+: Node=1416 Left=158 Best Integer=840.7440, Best Bound=788.3938, gap=6.23%, ItCnt=118263 [16.3s]
+ 61+: Node=1461 Left=190 Best Integer=840.7440, Best Bound=791.8881, gap=5.81%, ItCnt=123066 [16.5s]
+ 62+: Node=1498 Left=235 Best Integer=840.7440, Best Bound=793.5634, gap=5.61%, ItCnt=127872 [16.8s]
+ 63+: Node=1547 Left=272 Best Integer=840.7440, Best Bound=795.4761, gap=5.38%, ItCnt=132051 [17.1s]
+ 64+: Node=1609 Left=321 Best Integer=840.6000, Best Bound=797.4377, gap=5.13%, ItCnt=137930 [17.5s]
+ 65+: Node=1672 Left=382 Best Integer=840.6000, Best Bound=799.5943, gap=4.88%, ItCnt=144006 [17.8s]
+ 66+: Node=1767 Left=445 Best Integer=840.6000, Best Bound=802.1606, gap=4.57%, ItCnt=152555 [18.1s]
+ 67+: Node=1836 Left=539 Best Integer=840.6000, Best Bound=803.3811, gap=4.43%, ItCnt=159408 [18.6s]
+ 68+: Node=1927 Left=607 Best Integer=840.6000, Best Bound=805.3966, gap=4.19%, ItCnt=168484 [18.9s]
+ 69+: Node=2005 Left=693 Best Integer=840.6000, Best Bound=807.0371, gap=3.99%, ItCnt=175499 [19.2s]
+ 70+: Node=2086 Left=771 Best Integer=840.6000, Best Bound=808.0667, gap=3.87%, ItCnt=183535 [19.6s]
+ 71+: Node=2155 Left=848 Best Integer=840.6000, Best Bound=809.2583, gap=3.73%, ItCnt=191133 [20.0s]
+ 72+: Node=2236 Left=901 Best Integer=840.6000, Best Bound=809.9833, gap=3.64%, ItCnt=199443 [20.3s]
+ 73+: Node=2296 Left=973 Best Integer=840.6000, Best Bound=811.2051, gap=3.50%, ItCnt=203903 [20.7s]
+ 74+: Node=2358 Left=1031 Best Integer=840.6000, Best Bound=811.6335, gap=3.45%, ItCnt=209376 [21.1s]
+ 75+: Node=2464 Left=1085 Best Integer=840.6000, Best Bound=812.1893, gap=3.38%, ItCnt=219408 [21.4s]
+ 76+: Node=2577 Left=1182 Best Integer=840.6000, Best Bound=812.8099, gap=3.31%, ItCnt=229790 [21.8s]
+ 77+: Node=2664 Left=1275 Best Integer=840.6000, Best Bound=813.4251, gap=3.23%, ItCnt=237402 [22.2s]
+ 78+: Node=2734 Left=1353 Best Integer=840.6000, Best Bound=814.3915, gap=3.12%, ItCnt=243759 [22.6s]
+ 79+: Node=2823 Left=1411 Best Integer=840.6000, Best Bound=815.3659, gap=3.00%, ItCnt=251879 [23.0s]
+ 80+: Node=2932 Left=1484 Best Integer=840.6000, Best Bound=816.0359, gap=2.92%, ItCnt=261716 [23.3s]
+ 81+: Node=3053 Left=1557 Best Integer=840.6000, Best Bound=816.5622, gap=2.86%, ItCnt=271567 [23.8s]
+ 82+: Node=3180 Left=1643 Best Integer=840.6000, Best Bound=817.1600, gap=2.79%, ItCnt=281746 [24.2s]
+ 83+: Node=3239 Left=1743 Best Integer=840.6000, Best Bound=817.8179, gap=2.71%, ItCnt=287274 [24.8s]
+ 84+: Node=3372 Left=1772 Best Integer=840.6000, Best Bound=818.1581, gap=2.67%, ItCnt=298451 [25.2s]
+ 85+: Node=3526 Left=1844 Best Integer=840.6000, Best Bound=818.5124, gap=2.63%, ItCnt=310015 [25.6s]
+ 86+: Node=3670 Left=1940 Best Integer=840.6000, Best Bound=818.8730, gap=2.58%, ItCnt=321669 [26.1s]
+ 87+: Node=3821 Left=2033 Best Integer=840.6000, Best Bound=819.6046, gap=2.50%, ItCnt=332439 [26.6s]
+ 88+: Node=3955 Left=2134 Best Integer=840.6000, Best Bound=820.1999, gap=2.43%, ItCnt=343436 [27.0s]
+ 89+: Node=4014 Left=2210 Best Integer=840.6000, Best Bound=820.3088, gap=2.41%, ItCnt=347474 [27.4s]
+ 90+: Node=4141 Left=2238 Best Integer=840.6000, Best Bound=820.8090, gap=2.35%, ItCnt=356725 [27.9s]
+ 91+: Node=4308 Left=2309 Best Integer=840.6000, Best Bound=821.1776, gap=2.31%, ItCnt=370597 [28.4s]
+ 92+: Node=4473 Left=2382 Best Integer=840.6000, Best Bound=821.5032, gap=2.27%, ItCnt=384109 [29.0s]
+ 93+: Node=4603 Left=2463 Best Integer=840.6000, Best Bound=821.7544, gap=2.24%, ItCnt=393212 [29.4s]
+ 94+: Node=4733 Left=2520 Best Integer=840.6000, Best Bound=822.1927, gap=2.19%, ItCnt=402256 [30.0s]
+ 95+: Node=4922 Left=2559 Best Integer=840.6000, Best Bound=822.6162, gap=2.14%, ItCnt=416635 [30.4s]
+ 96+: Node=5103 Left=2614 Best Integer=840.6000, Best Bound=822.9759, gap=2.10%, ItCnt=429419 [30.9s]
+ 97+: Node=5286 Left=2672 Best Integer=840.6000, Best Bound=823.1159, gap=2.08%, ItCnt=441325 [31.5s]
+ 98+: Node=5494 Left=2765 Best Integer=840.6000, Best Bound=823.5306, gap=2.03%, ItCnt=455118 [32.0s]
+ 99+: Node=5730 Left=2870 Best Integer=840.6000, Best Bound=823.8791, gap=1.99%, ItCnt=468878 [32.6s]
+100+: Node=5849 Left=2976 Best Integer=840.6000, Best Bound=824.0620, gap=1.97%, ItCnt=476411 [33.1s]
+101+: Node=5989 Left=3018 Best Integer=840.6000, Best Bound=824.4754, gap=1.92%, ItCnt=485535 [33.7s]
+102+: Node=6607 Left=3164 Best Integer=827.0000, Best Bound=824.8985, gap=0.25%, ItCnt=515237 [34.8s]
+103+: Node=6871 Left=645 Best Integer=827.0000, Best Bound=826.3707, gap=0.08%, ItCnt=520497 [35.1s]
+104+: Node=7010 Left=540 Best Integer=827.0000, Best Bound=826.5266, gap=0.06%, ItCnt=521154 [35.2s]
+105+: Node=7162 Left=448 Best Integer=827.0000, Best Bound=826.6374, gap=0.04%, ItCnt=521710 [35.3s]
+106+: Node=7290 Left=378 Best Integer=827.0000, Best Bound=826.7625, gap=0.03%, ItCnt=522092 [35.4s]
+107+: Node=7415 Left=265 Best Integer=827.0000, Best Bound=826.8670, gap=0.02%, ItCnt=522529 [35.5s]
+solution for: clad
+objective: 827
+x9=1
+x267=1
+x423=1
+x461=1
+x466=1
+x547=1
+x551=1
+x559=1
+x590=1
+x602=31.756
+x603=-27.866
+x604=-6.619
+x605=-3.503
+x606=-46.290
+x615=3.000
+x1064=0.000
+x1067=3.000
+x1070=0.000
+x1072=6.000
+x1081=0.000
+x1153=12.000
+x1154=0.000
+x1157=12.000
+x1159=0.000
+x1162=0.000
+x1165=12.000
+x1193=0.000
+x1196=6.000
+x1216=3.000
+x2260=3.000
+x2261=3.000
+x2262=7.000
+x2263=12.000
+x2264=1.000
+x2265=1.000
+x2266=12.000
+x2267=7.000
+x2268=2.000
+x2270=1.000
+x2271=7.000
+x2272=12.000
+x2273=12.000
+x2274=6.000
+x2275=3.000
+x2276=7.000
+x2277=7.000
+x2278=1.000
+x2279=1.000
+x2280=7.000
+x2281=1.000
+x2282=12.000
+x2283=12.000
+x2284=3.000
+x2285=7.000
+x2286=1.000
+x2287=1.000
+x2288=1.000
+x2289=3.000
+x2290=3.000
+x2291=1.000
+x2292=1.000
+x2293=7.000
+x2294=7.000
+x2295=7.000
+x2296=12.000
+x2297=7.000
+x2298=7.000
+x2299=1.000
+x2300=2.000
+x2301=12.000
+x2302=12.000
+x2303=1.000
+x2304=12.000
+x2305=12.000
+x2306=7.000
+x2307=7.000
+x2308=1.000
+x2309=3.000
+x2310=12.000
+x2311=7.000
+x2312=1.000
+x2313=7.000
+x2314=1.000
+x2315=1.000
+x2316=1.000
+x2317=7.000
+x2318=3.000
+x2319=7.000
+x2320=7.000
+x2321=2.000
+x2322=7.000
+x2323=1.000
+x2324=7.000
+x2325=2.000
+x2326=7.000
+x2327=7.000
+x2328=3.000
+x2329=1.000
+x2330=2.000
+x2331=12.000
+x2332=1.000
+x2333=3.000
+x2334=12.000
+x2335=7.000
+x2336=7.000
+x2337=1.000
+x2338=1.000
+x2339=12.000
+x2340=7.000
+x2341=7.000
+x2342=1.000
+x2343=12.000
+x2344=1.000
+x2345=12.000
+x2346=12.000
+x2347=3.000
+x2348=3.000
+x2349=12.000
+x2350=12.000
+x2351=2.000
+x2352=1.000
+x2353=7.000
+x2354=1.000
+x2356=12.000
+x2357=7.000
+x2358=12.000
+x2360=7.000
+x2361=12.000
+x2362=2.000
+x2363=12.000
+x2364=12.000
+x2365=7.000
+x2366=2.000
+x2367=0.000
+x2368=7.000
+x2369=2.000
+x2370=7.000
+x2371=3.000
+x2372=12.000
+x2373=12.000
+x2374=2.000
+x2375=1.000
+x2376=12.000
+x2377=2.000
+x2378=7.000
+x2379=2.000
+x2380=12.000
+x2381=7.000
+x2382=7.000
+x2383=2.000
+x2384=1.000
+x2385=3.000
+x2386=1.000
+x2387=12.000
+x2388=1.000
+x2389=1.000
+x2390=2.000
+x2391=7.000
+x2392=3.000
+x2393=3.000
+x2394=2.000
+x2395=12.000
+x2396=12.000
+x2397=3.000
+x2398=1.000
+x2399=7.000
+x2400=12.000
+x2401=7.000
+x2402=12.000
+x2403=3.000
+x2404=7.000
+x2405=1.000
+x2406=7.000
+x2407=2.000
+x2408=2.000
+x2409=1.000
+
+826.9999999999984
+[ 5.7 -3.  -6.  -3.  37.5]
+35.60899999999674
+integer optimal, tolerance
+
+(cplex) C:\Storage\Kostas\Research\PythonCplex\PythonCplex_CLAD>
