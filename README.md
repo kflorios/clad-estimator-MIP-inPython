@@ -25,8 +25,11 @@ For completeness, I supply the Matlab manual here too.
 The expected result is
 
 value = 826.9999999999984
+
 estimates = (5.7, -3.,  -6.,  -3.,  37.5)
+
 time = 35.60899999999674
+
 quality = integer optimal, tolerance
 
 
