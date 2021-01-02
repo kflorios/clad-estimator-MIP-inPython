@@ -242,7 +242,7 @@ def denormalizeEstimates(estimatesNorm,mu,sigma):
 
 if __name__ == "__main__":
 
-    #MaxScoreCompute()
+    #CladCompute()
     value, estimates, time, quality = CladCompute()
     print(value)
     print(estimates)
