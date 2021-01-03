@@ -22,7 +22,7 @@ def CladCompute():
 
 
 def readXyw():
-    #Reads X,y,w of given max score problem
+    #Reads X,y,w of given CLAD problem
     #X = np.loadtxt("X_200_4.txt")
     X = np.loadtxt("X_601_5.txt")
     X=X[:,1:]
