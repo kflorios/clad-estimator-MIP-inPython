@@ -143,8 +143,8 @@ def milp_cplex(c,A,b,Aeq,beq,lb,ub,n,p,M, X,y,best):
     # https://www.ibm.com/support/knowledgecenter/SSSA5P_20.1.0/ilog.odms.cplex.help/CPLEX/GettingStarted/topics/set_up/Python_setup.html
     # Also, it assumes first n variables must be integer.
     # The MIP equations of the CLAD estimator are available at
-    #Bilias, Y., Florios, K., & Skouras, S.(2019).Exact computation
-    #of Censored Least Absolute Deviations estimator.
+    # Bilias, Y., Florios, K., & Skouras, S.(2019).Exact computation
+    # of Censored Least Absolute Deviations estimator.
     # Journal of Econometrics, 212(2), 584 - 606.
     # Written by Kostas Florios, January 2, 2021
     #
