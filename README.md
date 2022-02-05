@@ -39,3 +39,8 @@ Bilias, Y., Florios, K., & Skouras, S. (2019). Exact computation of Censored Lea
 Journal of Econometrics, 212(2), 584-606.
 
 https://www.sciencedirect.com/science/article/abs/pii/S030440761930140X
+
+The research project was supported by the Hellenic Foundation 
+for Research and Innovation (H.F.R.I.) under the “2nd Call for 
+H.F.R.I. Research Projects to support Post-Doctoral Researchers”
+(Project Number: 902).
